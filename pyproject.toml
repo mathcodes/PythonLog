@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "repl_python3_blog-with-users-end"
+version = "0.1.0"
+description = ""
+authors = ["repl.it user <replituser@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+flask-login = "^0.5.0"
+flask-wtf = "^0.15.1"
+werkzeug = "^2.0.1"
+flask = "^2.0.1"
+wtforms = "^2.3.3"
+flask-bootstrap = "^3.3.7"
+flask-sqlalchemy = "^2.5.1"
+flask-gravatar = "^0.5.0"
+flask-ckeditor = "^0.4.6"
+sqlalchemy = "^1.4.19"
+somepackage = "^1.2.3"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

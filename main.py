@@ -217,6 +217,7 @@ def edit_post(post_id):
 def delete_post(post_id):
     post_to_delete = BlogPost.query.get(post_id)
     db.session.delete(post_to_delete)
+    db.session.on
     db.session.commit()
     return redirect(url_for('get_all_posts'))
 

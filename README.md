@@ -1,12 +1,23 @@
 # PythonLog
 
-### COMING SOON....
-# Jon Christie's 2021 Portfolio 
+### A Full Stack, Mobile-friendly web app with Python running the show! I have finally come full circle and am able to connect all I've learned post-bootcamp (Python from "Hello World!" to full stack app with RWD, forms built from scratch, auth, validation, fast, bueatiful, and SO readable, accessible, and friendly for anyboady that wants to peak under the hood. I encourage you!!!! I am always trying to collaborate and hear from others as I'll be learning til I'm dead, so don't hold back! 
 
-## Languages, Frameworks, and Libraries
 
-[<code><img alt="html5" width="48px" src="https://img.icons8.com/color/240/000000/html-5.png"></code>](https://developer.mozilla.org/en-US/docs/Web/HTML)[<code><img alt="css3" width="48px" src="https://img.icons8.com/color/240/000000/css3.png"></code>](https://developer.mozilla.org/en-US/docs/Web/CSS)    [<code><img alt="javascript" width="48px" src="https://img.icons8.com/color/240/000000/javascript.png" /></code>](https://developer.mozilla.org/en-US/docs/Web/JavaScript)    [<code><img alt="typescript"  src="https://img.icons8.com/color/48/000000/typescript.png"></code>](https://www.typescriptlang.org/)    [<code><img alt="react" width="48px" src="https://img.icons8.com/color/240/000000/react-native.png" /></code>](https://reactjs.org/)    [<code><img alt="pycharm" width="48px" src="https://img.icons8.com/color/240/000000/pycharm.png" /></code>](https://www.jetbrains.com/pycharm/)    [<code><img alt="python" width="48px" src="https://img.icons8.com/color/240/000000/python.png"></code>](https://www.python.org/)    [<code><img alt="sass" width="48px" src="https://img.icons8.com/color/240/000000/sass.png"></code>](https://sass-lang.com/)    [<code><img alt="json" width="48px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/json/json.png"></code>](https://www.json.org/json-en.html)    [<code><img alt="eslint" width="48px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/eslint/eslint.png"></code>](https://eslint.org/)    [<code><img alt="Node.js" width="48px" src="https://img.icons8.com/color/240/000000/nodejs.png"></code>](https://nodejs.org/en/)    [<code><img alt="MySQL" width="48px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png"></code>](https://dev.mysql.com/)    [<code><img src="https://img.icons8.com/color/48/000000/adobe-indesign.png"/></code>](https://www.adobe.com/creativecloud.html)    [<code><img src="https://img.icons8.com/fluent/48/000000/adobe-photoshop.png"/></code>](https://www.adobe.com/creativecloud.html)    [<code><img src="https://img.icons8.com/fluent/48/000000/adobe-dreamweaver.png"/></code>](https://www.adobe.com/creativecloud.html)    [<code><img src="https://img.icons8.com/fluent/48/000000/adobe-illustrator.png"/></code>](https://www.adobe.com/creativecloud.html)    [<code><img alt="markdown" width="48px" src="https://img.icons8.com/ios-filled/100/000000/markdown.png"></code>](https://www.markdownguide.org/)    [<code><img alt="Git" width="48px" src="https://img.icons8.com/color/240/000000/git.png"></code>](https://git-scm.com/)    [<code><img alt="github" width="48px" src="https://img.icons8.com/ios-glyphs/240/000000/github.png"></code>](https://github.com/)    [<code><img alt="heroku" src="https://img.icons8.com/color/48/000000/heroku.png"/></code>](www.heroku.com)    [<code><img alt="terminal" width="48px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png"></code>](https://docs.microsoft.com/en-us/windows/terminal/)[<code><img alt="aws" width="48px" src="https://img.icons8.com/windows/32/ffffff/amazon-web-services.png"/></code>](aws.com)    [<code><img alt="apple" width="48px" src="https://img.icons8.com/officel/16/000000/mac-os.png"/></code>](https://www.apple.com/)  
-## Contact
+
+# Requirements
+
+| gunicorn==20.1.0   | click==7.1.2             | Flask-CKEditor==0.4.4.1 | Flask-WTF==0.14.3   | MarkupSafe==1.1.1  |
+|--------------------|--------------------------|-------------------------|---------------------|--------------------|
+| django==3.2.4      | dominate==2.5.2          | Flask-Gravatar==0.5.0   | idna==2.10          | requests==2.24.0   |
+| certifi==2020.6.20 | Flask==1.1.2             | Flask-Login==0.5.0      | itsdangerous==1.1.0 | SQLAlchemy==1.3.19 |
+| chardet==3.0.4     | Flask-Bootstrap==3.3.7.1 | Flask-SQLAlchemy==2.4.4 | Jinja2==2.11.2      | urllib3==1.25.10   |
+| visitor==0.1.3     | Werkzeug==1.0.1          | WTForms==2.3.3          |                     |                    |
+
+
+
+
+
+# Contact
 <img src="https://avatars0.githubusercontent.com/u/17928947?v=4" alt="Github profile image" width="80px" height="80px" />
 
 __Jon Christie__ 

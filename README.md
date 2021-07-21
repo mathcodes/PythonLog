@@ -1,21 +1,33 @@
-# PythonLog
+# A Python Log
 
-### A Full Stack, Mobile-friendly web app with Python running the show! I have finally come full circle and am able to connect all I've learned post-bootcamp (Python from "Hello World!" to full stack app with RWD, forms built from scratch, auth, validation, fast, bueatiful, and SO readable, accessible, and friendly for anyboady that wants to peak under the hood. I encourage you!!!! I am always trying to collaborate and hear from others as I'll be learning til I'm dead, so don't hold back! 
+### A Full Stack, Mobile-friendly web app with Python running the show! A full stack app with RWD, forms using HTTP, auth, validation, admin vs user access, and more. A fast, bueatiful, readable, accessible, and friendly site for anyboady that wants to contribute to a blog aiming to provide users with a go-to resource for learning code.
 
-
+## [LIVE](https://jonspythonlog.herokuapp.com/)
 
 # Requirements
-
-| gunicorn==20.1.0   | click==7.1.2             | Flask-CKEditor==0.4.4.1 | Flask-WTF==0.14.3   | MarkupSafe==1.1.1  |
-|--------------------|--------------------------|-------------------------|---------------------|--------------------|
-| django==3.2.4      | dominate==2.5.2          | Flask-Gravatar==0.5.0   | idna==2.10          | requests==2.24.0   |
-| certifi==2020.6.20 | Flask==1.1.2             | Flask-Login==0.5.0      | itsdangerous==1.1.0 | SQLAlchemy==1.3.19 |
-| chardet==3.0.4     | Flask-Bootstrap==3.3.7.1 | Flask-SQLAlchemy==2.4.4 | Jinja2==2.11.2      | urllib3==1.25.10   |
-| visitor==0.1.3     | Werkzeug==1.0.1          | WTForms==2.3.3          |                     |                    |
-
-
-
-
+ - gunicorn==20.1.0
+ - django==3.2.4
+ - certifi==2020.6.20
+ - chardet==3.0.4
+ - click==7.1.2
+ - dominate==2.5.2
+ - Flask==1.1.2
+ - Flask-Bootstrap==3.3.7.1
+ - Flask-CKEditor==0.4.4.1
+ - Flask-Gravatar==0.5.0
+ - Flask-Login==0.5.0
+ - Flask-SQLAlchemy==2.4.4
+ - Flask-WTF==0.14.3
+ - idna==2.10
+ - itsdangerous==1.1.0
+ - Jinja2==2.11.2
+ - MarkupSafe==1.1.1
+ - requests==2.24.0
+ - SQLAlchemy==1.3.19
+ - urllib3==1.25.10
+ - visitor==0.1.3
+ - Werkzeug==1.0.1
+ - WTForms==2.3.3
 
 # Contact
 <img src="https://avatars0.githubusercontent.com/u/17928947?v=4" alt="Github profile image" width="80px" height="80px" />

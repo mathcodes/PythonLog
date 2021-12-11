@@ -1,36 +1,41 @@
-{% extends 'bootstrap/base.html' %}
-{% import "bootstrap/wtf.html" as wtf %}
-{% block content %}
-{% include "header.html" %}
+{% extends 'bootstrap/base.html' %} {% import "bootstrap/wtf.html" as wtf %} {%
+block content %} {% include "header.html" %}
 
-  <!-- Page Header -->
-  <!-- <header class="masthead" style="background-image: url("${{ url_for('static', filename='img/bluewavy.png')}}")"> -->
-  <header class="masthead" style="background-image: url('https://spectrum.ieee.org/media-library/purple-background-with-a-yellow-hand-shape-made-up-of-names-of-programming-languages-holds-the-word-python-which-is-large.jpg?id=27260345&width=4000&height=3000'); @-moz-document>
-    <div class="overlay"></div>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-md-10 mx-auto">
-          <div class="page-heading">
-            <h1>About Me</h1>
-            <span class="subheading">This is what I do.</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
-
-  <!-- Main Content -->
+<!-- Page Header -->
+<!-- <header class="masthead" style="background-image: url("${{ url_for('static', filename='img/bluewavy.png')}}")"> -->
+<header
+  class="masthead"
+  style="background-image: url(https://raw.githubusercontent.com/mathcodes/PythonLog/main/static/img/PIC3.JPG);">
+  <div class="overlay"></div>
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-md-10 mx-auto">
-        Ok, why not. If nothing more than a filler for the ipsum dolor. 🧐 
-        I am currently looking for work in web development while thankfully staying very active  in the industry both at work and in my free time. If you know of any opportunities for I am all ears. I have been picking up projects as small and short as a week to full stack e-commerce with auth, validation, and wallet-friendly. 😉
-        Other than coding, I enjoy the ocean, the mountains, playing my guitar on both and everywhere in between! Can't forget my two pups Luna and Deci either. Carrying for me by my side all this way. Interested? Great! Hit me up on one of those link down there and let's chat! 👇
+        <div class="page-heading">
+          <h1>About Me</h1>
+          <span class="subheading">This is what I do.</span>
+        </div>
       </div>
     </div>
   </div>
+</header>
 
+<!-- Main Content -->
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-md-10 mx-auto">
+      Ok, why not. If nothing more than a filler for the ipsum dolor. 🧐 I am
+      currently looking for work in web development while thankfully staying
+      very active in the industry both at work and in my free time. If you know
+      of any opportunities for I am all ears. I have been picking up projects as
+      small and short as a week to full stack e-commerce with auth, validation,
+      and wallet-friendly. 😉 Other than coding, I enjoy the ocean, the
+      mountains, playing my guitar on both and everywhere in between! Can't
+      forget my two pups Luna and Deci either. Carrying for me by my side all
+      this way. Interested? Great! Hit me up on one of those link down there and
+      let's chat! 👇
+    </div>
+  </div>
+</div>
 
-<hr>
-{% include "footer.html" %}
-{% endblock %}
+<hr />
+{% include "footer.html" %} {% endblock %}

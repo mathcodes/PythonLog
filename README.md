@@ -31,6 +31,15 @@
  - Werkzeug==1.0.1
  - WTForms==2.3.3
 
+# Installation
+🙏 Remember to contribute to this blog, throw some tip down and a star and all this is for you to use as you wish :) 
+
+In development I ended up using both VS Code and PyCharm for certain features not shared by both. But running the app is easiest using PyCharm:
+ 1) Download the project files (or fork/clone, whatever is best for you).
+ 2) Start new project in PyCharm.
+ 3) Install the dependencies (open main.py and hover over red alerts for an easy way to knock this out)
+ 4) Run main.py
+
 # Contact
 <img src="https://avatars0.githubusercontent.com/u/17928947?v=4" alt="Github profile image" width="80px" height="80px" />
 

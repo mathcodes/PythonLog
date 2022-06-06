@@ -6,39 +6,26 @@
 
 ## [LIVE](https://jonspythonlog.herokuapp.com/)
 
-# Requirements
- - gunicorn==20.1.0
- - django==3.2.4
- - certifi==2020.6.20
- - chardet==3.0.4
- - click==7.1.2
- - dominate==2.5.2
- - Flask==1.1.2
- - Flask-Bootstrap==3.3.7.1
- - Flask-CKEditor==0.4.4.1
- - Flask-Gravatar==0.5.0
- - Flask-Login==0.5.0
- - Flask-SQLAlchemy==2.4.4
- - Flask-WTF==0.14.3
- - idna==2.10
- - itsdangerous==1.1.0
- - Jinja2==2.11.2
- - MarkupSafe==1.1.1
- - requests==2.24.0
- - SQLAlchemy==1.3.19
- - urllib3==1.25.10
- - visitor==0.1.3
- - Werkzeug==1.0.1
- - WTForms==2.3.3
+# Requirements 
+|  |  |  |  |
+|---|---|---|---|
+| gunicorn | django | certifi | chardet |
+| click | dominate | Flask | Flask-Bootstrap | 
+| Flask-CKEditor | Flask-Gravatar | Flask-Login | Flask-SQLAlchemy | 
+| Flask-WTF | idna | itsdangerous | Jinja2 | 
+| MarkupSafe | requests | SQLAlchemy | urllib3 |
+| visitor | Werkzeug | WTForms |
 
 # Installation
-🙏 Remember to contribute to this blog, throw some tip down and a star and all this is for you to use as you wish :) 
+In development I ended up using both `VS Code` and `PyCharm` for certain features not shared by both. With that said, I find that running the app is easiest using PyCharm by following these simple steps:
 
-In development I ended up using both VS Code and PyCharm for certain features not shared by both. But running the app is easiest using PyCharm:
- 1) Download the project files (or fork/clone, whatever is best for you).
- 2) Start new project in PyCharm.
- 3) Install the dependencies (open main.py and hover over red alerts for an easy way to knock this out)
- 4) Run main.py
+ 1) Start new project in `PyCharm`.
+ 2) Clone the repo in PyCharm using the following command:
+```bash
+git clone git@github.com:mathcodes/PythonLog.git
+```
+ 3) Install the dependencies (In `main.py`, whichever remaining dependencies are not automatically installed will have a red alert flag that when you hover over, offers you an option to install the necessary dependencies/components.
+ 4) Run `main.py`
 
 # Contact
 <img src="https://avatars0.githubusercontent.com/u/17928947?v=4" alt="Github profile image" width="80px" height="80px" />

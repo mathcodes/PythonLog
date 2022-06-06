@@ -4,7 +4,7 @@
 
 
 
-## Click to open any section:
+## Click the arrows to toggle a section:
 
 <details open>
 <summary>Description</summary>

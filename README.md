@@ -1,6 +1,6 @@
 # A Python Log
 
-### A Full Stack, Mobile-friendly web app with Python running the show! A full stack app with RWD, forms using HTTP, auth, validation, admin vs user access, and more. A fast, beautiful, readable, accessible, and friendly site for anybody that wants to contribute to a blog aiming to provide users with a go-to resource for learning code.
+A Full Stack, Mobile-friendly web app with Python running the show! A full stack app with RWD, forms using HTTP, auth, validation, admin vs user access, and more. A fast, beautiful, readable, accessible, and friendly site for anybody that wants to contribute to a blog aiming to provide users with a go-to resource for learning code.
 
 <img src="https://raw.githubusercontent.com/mathcodes/PythonLog/main/mockupspythonLog.png?token=GHSAT0AAAAAABQS7SFHW27JTGMA7KKAHDW6YPGMM6A" width="60%" />
 

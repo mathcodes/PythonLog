@@ -1,12 +1,20 @@
 # A Python Log
 
-A Full Stack, Mobile-friendly web app with Python running the show! A full stack app with RWD, forms using HTTP, auth, validation, admin vs user access, and more. A fast, beautiful, readable, accessible, and friendly site for anybody that wants to contribute to a blog aiming to provide users with a go-to resource for learning code.
+### [LIVE](https://jonspythonlog.herokuapp.com/)
 
-<img src="https://raw.githubusercontent.com/mathcodes/PythonLog/main/mockupspythonLog.png?token=GHSAT0AAAAAABQS7SFHW27JTGMA7KKAHDW6YPGMM6A" width="60%" />
 
-## [LIVE](https://jonspythonlog.herokuapp.com/)
 
-# Installation
+## Click to open any section:
+
+<details open>
+<summary>Description</summary>
+<br>
+ A Full Stack, Mobile-friendly web app with Python running the show! A full stack app with RWD, forms using HTTP, auth, validation, admin vs user access, and more. A fast, beautiful, readable, accessible, and friendly site for anybody that wants to contribute to a blog aiming to provide users with a go-to resource for learning code.
+</details>
+
+<details open>
+<summary>Installation</summary>
+<br>
 In development I ended up using both `VS Code` and `PyCharm` for certain features not shared by both. With that said, I find that running the app is easiest using PyCharm by following these simple steps:
 
  1) Start new project in `PyCharm`.
@@ -16,8 +24,17 @@ git clone git@github.com:mathcodes/PythonLog.git
 ```
  3) Install the dependencies (In `main.py`, whichever remaining dependencies are not automatically installed will have a red alert flag that when you hover over, offers you an option to install the necessary dependencies/components.
  4) Run `main.py`
+</details>
 
-- ### Requirements
+<details open>
+<summary>Images</summary>
+<br>
+<img src="https://raw.githubusercontent.com/mathcodes/PythonLog/main/mockupspythonLog.png?token=GHSAT0AAAAAABQS7SFHW27JTGMA7KKAHDW6YPGMM6A" width="60%" />
+</details>
+ 
+<details open>
+<summary>Requirements</summary>
+<br>
   - [gunicorn](#gunicorn)
   - [django](#django)
   - [certifi](#certifi)
@@ -43,37 +60,39 @@ git clone git@github.com:mathcodes/PythonLog.git
   - [Werkzeug](#werkzeug)
   - [WTForms](#wtforms)
 
-## [Green Unicorn (Gunicorn)]('https://www.fullstackpython.com/green-unicorn-gunicorn.html')
+## Requirements
+
+### [Green Unicorn (Gunicorn)]('https://www.fullstackpython.com/green-unicorn-gunicorn.html')
 
 The Gunicorn "Green Unicorn" is a Python Web Server Gateway Interface HTTP server. It is a pre-fork worker model, ported from Ruby's Unicorn project. The Gunicorn server is broadly compatible with a number of web frameworks, simply implemented, light on server resources and fairly fast.
 
-## [Django](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Introduction)
+### [Django](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Introduction)
 
 Django is a Python-based web framework, free and open-source, that follows the model–template–views architectural pattern. It is maintained by the Django Software Foundation, an independent organization established in the US as a 501 non-profit.
 
-## [certifi](https://pypi.org/project/certifi/)
+### [certifi](https://pypi.org/project/certifi/)
 Certifi provides Mozilla’s carefully curated collection of Root Certificates for validating the trustworthiness of SSL certificates while verifying the identity of TLS hosts. It has been extracted from the Requests project.
 
-## [chardet](https://chardet.readthedocs.io/en/latest/usage.html#basic-usage)
+### [chardet](https://chardet.readthedocs.io/en/latest/usage.html#basic-usage)
 Character encoding auto-detection in Python. As smart as your browser. Open source.
 
-## [click](https://click.palletsprojects.com/en/8.1.x/) 
+### [click](https://click.palletsprojects.com/en/8.1.x/) 
 Click is a Python package for creating beautiful command line interfaces in a composable way with as little code as necessary. It’s the “Command Line Interface Creation Kit”. It’s highly configurable but comes with sensible defaults out of the box.
 
-## [ckeditor](https://ckeditor.com/)
+### [ckeditor](https://ckeditor.com/)
 CKEditor 5 provides every type of WYSIWYG editing solution imaginable. From editors similar to Google Docs and Medium, to Slack or Twitter like applications, all is possible within a single editing framework.
 
-## [dominate](https://anaconda.org/conda-forge/dominate)
+### [dominate](https://anaconda.org/conda-forge/dominate)
 Dominate is a Python library for creating and manipulating HTML documents using an elegant DOM API.
 
-## [Flask](https://flask.palletsprojects.com/en/2.1.x/)
+### [Flask](https://flask.palletsprojects.com/en/2.1.x/)
 Flask is a micro web framework written in Python. It is classified as a microframework because it does not require particular tools or libraries. It has no database abstraction layer, form validation, or any other components where pre-existing third-party libraries provide common functions. 
 
-## [Flask-Bootstrap](https://pypi.org/project/Flask-Bootstrap4/)
+### [Flask-Bootstrap](https://pypi.org/project/Flask-Bootstrap4/)
 Flask-Bootstrap packages Bootstrap into an extension that mostly consists of a blueprint named ‘bootstrap’. It can also create links to serve Bootstrap from a CDN and works with no boilerplate code in your application.
 
 
-## [Flask-CKEditor](https://pypi.org/project/Flask-CKEditor/)
+### [Flask-CKEditor](https://pypi.org/project/Flask-CKEditor/)
 CKEditor integration for Flask, including image upload, code syntax highlighting, and more.
 
 Features include: 
@@ -83,36 +102,36 @@ Features include:
  - Code snippet highlighting.
  - Built-in CKEditor resources.
 
-## [Flask-Gravatar](https://pypi.org/project/Flask-Gravatar/)
+### [Flask-Gravatar](https://pypi.org/project/Flask-Gravatar/)
 This is small and simple integration gravatar into flask.
 
-## [Flask-Login](https://pypi.org/project/Flask-Login/)
+### [Flask-Login](https://pypi.org/project/Flask-Login/)
 Flask-Login provides user session management for Flask. It handles the common tasks of logging in, logging out, and remembering your users' sessions over extended periods of time.
 
 Flask-Login is not bound to any particular database system or permissions model. The only requirement is that your user objects implement a few methods, and that you provide a callback to the extension capable of loading users from their ID.
 
 
-## [Flask-SQLAlchemy](https://pypi.org/project/Flask-SQLAlchemy/)
+### [Flask-SQLAlchemy](https://pypi.org/project/Flask-SQLAlchemy/)
 Flask-SQLAlchemy is an extension for Flask that adds support for SQLAlchemy to your application. It aims to simplify using SQLAlchemy with Flask by providing useful defaults and extra helpers that make it easier to accomplish common tasks.
 
 
-## [Flask-WTF](https://pypi.org/project/Flask-WTF/)
+### [Flask-WTF](https://pypi.org/project/Flask-WTF/)
 Simple integration of Flask and WTForms, including CSRF, file upload, and reCAPTCHA.
 
-## [idna](https://pypi.org/project/idna/)
+### [idna](https://pypi.org/project/idna/)
 Support for the Internationalised Domain Names in Applications (IDNA) protocol as specified in RFC 5891. This is the latest version of the protocol and is sometimes referred to as “IDNA 2008”.
 
 This library also provides support for Unicode Technical Standard 46, Unicode IDNA Compatibility Processing.
 
 This acts as a suitable replacement for the “encodings.idna” module that comes with the Python standard library, but which only supports the older superseded IDNA specification (RFC 3490).
 
-## [itsdangerous](https://pypi.org/project/itsdangerous/)
+### [itsdangerous](https://pypi.org/project/itsdangerous/)
 Various helpers to pass data to untrusted environments and to get it back safe and sound. Data is cryptographically signed to ensure that a token has not been tampered with.
 
 It’s possible to customize how data is serialized. Data is compressed as needed. A timestamp can be added and verified automatically while loading a token.
 
 
-## [Jinja2](https://pypi.org/project/Jinja2/)
+### [Jinja2](https://pypi.org/project/Jinja2/)
 Jinja is a fast, expressive, extensible templating engine. Special placeholders in the template allow writing code similar to Python syntax. Then the template is passed data to render the final document.
 
 Features include: 
@@ -128,10 +147,10 @@ Features include:
 
 Jinja’s philosophy is that while application logic belongs in Python if possible, it shouldn’t make the template designer’s job difficult by restricting functionality too much.
 
-## [MarkupSafe](https://pypi.org/project/MarkupSafe/)
+### [MarkupSafe](https://pypi.org/project/MarkupSafe/)
 MarkupSafe implements a text object that escapes characters so it is safe to use in HTML and XML. Characters that have special meanings are replaced so that they display as the actual characters. This mitigates injection attacks, meaning untrusted user input can safely be displayed on a page.
 
-## [requests](https://pypi.org/project/requests/)
+### [requests](https://pypi.org/project/requests/)
 Requests is a simple, yet elegant, HTTP library.
 
 Requests allows you to send HTTP/1.1 requests extremely easily. There’s no need to manually add query strings to your URLs, or to form-encode your PUT & POST data — but nowadays, just use the json method!
@@ -139,7 +158,7 @@ Requests allows you to send HTTP/1.1 requests extremely easily. There’s no nee
 Requests is one of the most downloaded Python packages today, pulling in around 30M downloads / week— according to GitHub, Requests is currently depended upon by 1,000,000+ repositories. You may certainly put your trust in this code.
 
 
-## [SQLAlchemy](https://pypi.org/project/SQLAlchemy/)
+### [SQLAlchemy](https://pypi.org/project/SQLAlchemy/)
 SQLAlchemy is the Python SQL toolkit and Object Relational Mapper that gives application developers the full power and flexibility of SQL. SQLAlchemy provides a full suite of well known enterprise-level persistence patterns, designed for efficient and high-performing database access, adapted into a simple and Pythonic domain language.
 
 Major SQLAlchemy features include:
@@ -160,7 +179,7 @@ SQLAlchemy’s philosophy:
 - Transactions should be the norm. With SQLAlchemy’s ORM, nothing goes to permanent storage until commit() is called. SQLAlchemy encourages applications to create a consistent means of delineating the start and end of a series of operations.
 - Never render a literal value in a SQL statement. Bound parameters are used to the greatest degree possible, allowing query optimizers to cache query plans effectively and making SQL injection attacks a non-issue.
 
-## [urllib3](https://pypi.org/project/urllib3/)
+### [urllib3](https://pypi.org/project/urllib3/)
 urllib3 is a powerful, user-friendly HTTP client for Python. Much of the Python ecosystem already uses urllib3 and you should too. urllib3 brings many critical features that are missing from the Python standard libraries:
 
 - Thread safety.
@@ -172,11 +191,11 @@ urllib3 is a powerful, user-friendly HTTP client for Python. Much of the Python 
 - Proxy support for HTTP and SOCKS.
 - 100% test coverage.
 
-## [visitor](https://pypi.org/project/visitor/)
+### [visitor](https://pypi.org/project/visitor/)
 A tiny library to facilitate visitor implementation in Python (which are slightly peculiar due to dynamic typing). In fact, it is so small, you may just be better off copy & pasting the source straight into your project…
 
 
-## [Werkzeug](https://werkzeug.palletsprojects.com/en/2.1.x/)
+### [Werkzeug](https://werkzeug.palletsprojects.com/en/2.1.x/)
 <p><em>werkzeug</em> German noun: “tool”.
 Etymology: <em>werk</em> (“work”), <em>zeug</em> (“stuff”)</p>
 <p>Werkzeug is a comprehensive <em><a class="reference external" href="https://wsgi.readthedocs.io/en/latest/">WSGI</a></em> web application library. It began as
@@ -189,9 +208,11 @@ requests.</p>
 
 <em><a class="reference external" href="https://wsgi.readthedocs.io/en/latest/">WSGI</a></em> is the Web Server Gateway Interface. It is a specification that describes how a web server communicates with web applications, and how web applications can be chained together to process one request.
 
-## [WTForms](https://wtforms.readthedocs.io/en/3.0.x/)
+### [WTForms](https://wtforms.readthedocs.io/en/3.0.x/)
 WTForms is a flexible forms validation and rendering library for Python web development. It can work with whatever web framework and template engine you choose. It supports data validation, CSRF protection, internationalization (I18N), and more. There are various community libraries that provide closer integration with popular frameworks.
-
+ 
+</details>
+ 
 # Contact
 <img src="https://avatars0.githubusercontent.com/u/17928947?v=4" alt="Github profile image" width="80px" height="80px" />
 

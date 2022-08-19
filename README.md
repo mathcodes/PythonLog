@@ -9,7 +9,7 @@
 <details open>
 <summary>Description</summary>
 <br>
- A Full Stack, Mobile-friendly web app with Python running the show! A full stack app with RWD, forms using HTTP, auth, validation, admin vs user access, and more. A fast, beautiful, readable, accessible, and friendly site for anybody that wants to contribute to a blog aiming to provide users with a go-to resource for learning code.
+A Full Stack, Mobile-friendly web app with Python running the show! A full stack app with RWD, forms using HTTP, auth, validation, admin vs user access, and more. A fast, beautiful, readable, accessible, and friendly site for anybody that wants to contribute to a blog aiming to provide users with a go-to resource for learning code.
 </details>
 
 <details open>

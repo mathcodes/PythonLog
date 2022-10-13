@@ -1,4 +1,4 @@
-# A Python Log
+# The Python Log
 
 ### [LIVE](https://jonspythonlog.herokuapp.com/)
 
